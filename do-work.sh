@@ -26,5 +26,6 @@ else
 fi
 
 # Done! Commit early, commit often, as they say.
+git pull
 git commit --allow-empty -m "${commit_msg}"
 git push
