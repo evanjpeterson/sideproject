@@ -1,2 +1,2 @@
-# side-project-sim
-Fake it 'til you make it
+# Everyday I'm crushing it 🎸
+
