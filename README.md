@@ -1,1 +1,1 @@
-# Everyday I'm crushing it 🎸
+## We are all rock stars.
