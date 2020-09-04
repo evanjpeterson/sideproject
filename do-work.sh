@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Oh, boy! Time to crush this side project!
-cd ~/source/side-project-sim
+cd ~/source/sideproject
 
 # But wait, how productive are we feeling on a scale of 1-10?
 productivity=$(( ($RANDOM % 10) + 1 ))
