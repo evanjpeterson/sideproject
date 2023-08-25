@@ -5,7 +5,7 @@ cd ~/source/sideproject
 
 # But wait, how productive are we feeling on a scale of 1-10?
 productivity=$(( ($RANDOM % 10) + 1 ))
-if (( productivity < 4))
+if (( productivity < 7))
 then
   # Yeah, not feeling it, maybe next time.
   exit
