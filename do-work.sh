@@ -8,6 +8,7 @@ productivity=$(( ($RANDOM % 10) + 1 ))
 if (( productivity < 7))
 then
   # Yeah, not feeling it, maybe next time.
+  echo "Until next time!"
   exit
 fi
 
