@@ -1,0 +1,14 @@
+# Edit this file to introduce tasks to be run by cron.
+# For more information see the manual pages of crontab(5) and cron(8)
+#
+# .---------------- minute (0 - 59)
+# |  .------------- hour (0 - 23)
+# |  |  .---------- day of month (1 - 31)
+# |  |  |  .------- month (1 - 12) OR jan,feb,mar,apr ...
+# |  |  |  |  .---- day of week (0 - 6) (Sunday=0 or 7) OR sun,mon,tue,wed,thu,fri,sat
+# |  |  |  |  |
+# *  *  *  *  * <user> <command to be executed>
+
+# Omit <user> when scheduling the cronjob with 'crontab -e' as the desired user.
+# Doing some side project work every few hours. Seems reasonable enough.
+  0 */3 *  *  * ~/source/sideproject/do-work.sh > ~/log/sideproject.log 2>&1
